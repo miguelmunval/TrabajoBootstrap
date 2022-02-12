@@ -1,7 +1,10 @@
+#wrapper {
+  width: 99.74%;
+  margin: 0%;
+}
 #nav {
   z-index: 1080;
 }
 #hero {
   z-index: 1000;
-  height: 95vh;
 }
