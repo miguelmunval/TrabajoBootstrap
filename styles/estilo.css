@@ -1,0 +1,7 @@
+#nav {
+  z-index: 1080;
+}
+#hero {
+  z-index: 1000;
+  height: 95vh;
+}

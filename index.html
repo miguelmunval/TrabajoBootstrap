@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Ecológica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body class="bg-success">
+    <div id="wrapper" class="container-fluid p-0">
+        <!-- BARRA DE NAVEGACIÓN - COMPONENTE BOOTSTRAP 5-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success position-sticky top-0 opacity-75" id="nav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Menu</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#hero">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#info">Más Info</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#consejos">Consejos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#videos">Multimedia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <section id="hero">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                
+                  <img src="./images/UTOK_verduras2ffedit.jpg" class="d-flex img-fluid" alt="...">
+                
+              </div>
+              <div class="carousel-item">
+                <img src="./images/huertas_crop1552252123305.jpg_543804098.jpg" class="d-flex img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/196.jpg" class="d-flex img-fluid" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+        <!-- dividida en 2 columnas -->
+        <section id="info">
+            <div class="container-fluid bg-info p-2">
+                <div class="row">
+                  <div class="col-xs-12 col-md-6 bg-info pt-4">
+                    <h2>Información sobre huertos ecológicos</h2>
+                    <p>Los huertos ecológicos son superficies (con independencia de que cultivemos sobre un terreno o en recipientes como macetas) en las que aplicamos métodos agroecológicos de cultivo: simientes ecológicas, fertilizantes no químicos, asociaciones de cultivo contra plagas... Y eso nos permite obtener una producción 100% natural</p>
+                    <h5>¿Qué beneficios nos aporta un huerto ecológico?</h5>
+                    <ul type="square">
+                      <li>Disponer de alimentos como frutas y hortalizas frescas y al alcance de nuestra mano cada día.</li>
+                      <li>Aprender, a diario, ser constantes y pacientes a través de las experiencias acertadas o erróneas sobre nuestros cultivos.</li>
+                      <li>Fomentan nuestra autoestima al ver crecer las plantas gracias a nuestros cuidados.</li>
+                      <li>Impulsan nuestra creatividad.</li>
+                      <li>Un lugar para entrar en contacto al 100% con la naturaleza incluso dentro de una ciudad.</li>
+                    </ul>
+                  </div>
+                  <div class="col-xs-12 col-md-6 p-0 bg-info">
+                    <img src="./images/calendario-cultivo-huerto-verdecora_sinderechos.jpg" alt="" class="img-fluid" id="imginfo">
+                  </div>
+                  <p class="bg-info">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#masinfo" aria-expanded="false" aria-controls="collapseWidthExample">
+                      Más Información
+                    </button>
+                  </p>
+                  <div style="min-height: 120px;" class="bg-info">
+                    <div class="collapse collapse-horizontal" id="masinfo">
+                      <div class="card card-body">
+                        Para crear tu propio huerto ecológico, necesitarás:
+
+                        Semillas o plantas.
+
+                        Un espacio soleado.
+
+                        Agua.
+
+                        Macetas u otro tipo de recipientes, eligiéndolos teniendo en cuenta el tipo de variedad a cultivar.
+
+                        Sustrato apto para nuestro tipo de cultivo. Un sustrato universal no es adecuado porque no aportará los nutrientes necesarios para que nuestras hortalizas, frutales o plantas aromáticas crezcan de forma idónea. Sigue las indicaciones de empleo para su uso en macetas, jardineras o sobre superficie que te ofrece el fabricante en el envase. Además, hoy en día ya disponemos de sustratos autorizados para su empleo en agricultora ecológica que son respetuosos con el medio ambiente.
+
+                        Si te animas a practicar esta sana actividad de cultivar tus propias plantas, puedes descargarte la guía gratuita Cómo hacer un huerto urbano, donde dispondrás de una amplia información que te resultará muy útil para conocer cómo cuidarlas y así sabrás, por ejemplo, si es más adecuado sembrar directamente sobre la tierra o en un semillero, o cuál es su época de sembrado.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section id="consejos" class="p-4">
+          <h2 class="text-center text-light">Consejos a seguir</h2>
+          <div class="container">
+            <div class="row align-items-middle g-5">
+              <!-- TODO ESTO ESTÁ EN getbootstrap.com > Layout > columns ---->
+              <!-- PARA COLOCAR LAS COLUMNAS ALINEADAS EN VERTICAL, ARRIBA EN ROW, HAY QUE UTILIZAR CLASES DE align-items QUE REGULAN TODAS LAS COLUMNAS JUNTAS, A LA VEZ-->
+              <!-- PARA INDICAR CADA COLUMNA POR SEPARADO: UTILIZAR LAS CLASES: align-self: estas van en cada columna-->
+              <!-- cuidado con usar margin en las columnas: desplaza la distribución del grid -->
+              <div class="col-xs-12 col-md-6 col-lg-3 bg-success">
+                <div class="card">
+                  <img src="./images/herramientas-huerto-2_0.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Cuida bien el terreno</h5>
+                    <p class="card-text">Escoge un terreno adecuado para el huerto y asegúrate de que los niveles de acidez del suelo son adecuados y el terreno esté libre de sustancias perjudiciales. Recuerda que la tierra nunca esté demasiado seca ni demasiado húmeda, y que la profundidad no sea superior a 50 centímetros.</p>
+                    <a href="https://www.fundacionaquae.org/wiki/conservar-el-suelo/" data-bs-toggle="tooltip" data-bs-placement="right" title="Cómo cuidar el suelo de tu jardín o huerto fácilmente" class="btn btn-primary">Click Aquí</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6 col-lg-3 bg-success">
+                <div class="card">
+                  <img src="./images/compost-casero.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Utiliza abonos orgánicos</h5>
+                    <p class="card-text">Algunos de los residuos recomendables para fabricar tu propio abono son las cajas de los huevos, las bolsitas de las infusiones, las hojas caídas de los árboles, la piel de los vegetales o el papel de periódico triturado. Intenta evitar residuos como la carne, la comida cocinada o los plásticos.</p>
+                    <a href="https://www.ecoagricultor.com/manual-basico-para-hacer-compost/" data-bs-toggle="tooltip" data-bs-placement="right" title="Cómo hacer compost casero" class="btn btn-primary">Click Aquí</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6 col-lg-3 bg-success">
+                <div class="card">
+                  <img src="./images/Siembra-de-hortalizas.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Conoce la siembra</h5>
+                    <p class="card-text">Hay ciertos vegetales que son muy complementarios e impulsan su crecimiento cuando se plantan juntos. Algunos buenos ejemplos son ajos y rosas y pepinos junto a rábanos. Es fundamental tener muy en cuenta el calendario de siembra para decidir los vegetales más adecuados para plantar.</p>
+                    <a href="https://www.agrodiario.com/texto-diario/mostrar/1453974/como-elaborar-propio-huerto-ecologico" data-bs-toggle="tooltip" data-bs-placement="right" title="Calendario de siembra" class="btn btn-primary">Click Aquí</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6 col-lg-3 bg-success">
+                <div class="card">
+                  <img src="./images/regar-en-verano.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">No desperdicies agua</h5>
+                    <p class="card-text">La conservación de agua es otro pilar de la agricultura ecológica. Una muy buena idea es instalar depósitos para almacenar el agua de la lluvia y regar el huerto. Es importante conocer las necesidades de cada vegetal y seguir hábitos de trasplante. Esperar un día nublado o a las primeras horas del día.</p>
+                    <a href="https://www.elhuertourbano.net/importancia-del-agua-en-las-plantas/" data-bs-toggle="tooltip" data-bs-placement="right" title="Importancia del agua" class="btn btn-primary">Click Aquí</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="videos">
+          <div class="container-fluid">
+            <h3 class="text-center">Nivel de agua en los pantanos</h3>
+            <div class="progress m-2">
+              <div class="progress-bar" role="progressbar" style="width: 23.28%;" aria-valuenow="23.28" aria-valuemin="0" aria-valuemax="100">Córdoba-23.28%</div>
+            </div>
+            <div class="progress m-2">
+              <div class="progress-bar" role="progressbar" style="width: 29.54%;" aria-valuenow="29.54%" aria-valuemin="0" aria-valuemax="100">Cádiz-29.54%</div>
+            </div>
+            <div class="progress m-2">
+              <div class="progress-bar" role="progressbar" style="width: 50.53%;" aria-valuenow="50.53%" aria-valuemin="0" aria-valuemax="100">Sevilla-50.53%</div>
+            </div>
+            <div class="row bg-info pt-4">
+              <div class="col-xs-12 col-md-6 px-5">
+                <iframe width="100%" height="95%" src="https://www.youtube.com/embed/oGlXS60Tfdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <h5 class="text-center">Resultados</h5>
+                <ol>
+                  <li>Experimentas con el cultivo</li>
+                  <li>Estás en contacto directo con la naturaleza</li>
+                  <li>Puede aportar una actividad familiar</li>
+                  <li>Alimentación más equilibrada</li>
+                  <li>Optienes productos 100% naturales</li>
+                  <li>Satisfacción al ver lo que has conseguido</li>
+                  <li>Distracción y ocio</li>
+                  <li>Actividad educativa</li>
+                  <li>Reduce el estrés</li>
+                  <li>Conocemos, respetamos y cuidamos más la naturaleza</li>
+                </ol>
+              </div>
+          
+              <!-- Se fuerzan las siguientes columnas para pasar a una nueva línea -->
+              <div class="w-100"></div>
+          
+              <div class="col-xs-12 col-md-6 p-4">
+                <h5 class="text-center">Técnicas para mantener un huerto</h5>
+                <p>Para mantener nuestro huerto ecológico de seguro tendremos que recurrir a alguna de estas técnicas:</p>
+                <p>Asociación de cultivos consiste en ubicar las plantas juntas que pueden beneficiarse mutuamente. Uno de los beneficios es que el olor de una de ellas ahuyente a las plagas típicas que pueden atacar a la planta que tiene al lado.</p>
+                <p>También la rotación de cultivos que consiste en alternar plantas de diferentes familias y con necesidades nutritivas diferentes en un mismo lugar durante distintos ciclos, evitando que el suelo se agote y que las enfermedades que afectan a un tipo de plantas se perpetúen en un tiempo determinado.</p>
+                <p>Abono verde esta técnica consiste en plantar especies forrajeras, gramíneas, leguminosas o incluso la flora espontánea para que mantengan o incrementen la actividad biológica de la tierra y aportando nuevos nutrientes.</p>
+                <p>Añadir a la tierra compost, ya que con su degradación se activa la vida microbiana del suelo y se aporta a la planta los elementos minerales y todas las sustancias necesarias para el adecuado desarrollo de las plantas. La materia orgánica también mejora la estructura de la tierra frenando así el efecto erosivo del agua.</p>
+              </div>
+              <div class="col-xs-12 col-md-6 p-4"><iframe width="100%" height="95%" src="https://www.youtube.com/embed/p6HpySHFMTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </div>
+          </div>
+        </section>
+        <footer id="footer">
+          <div class="container-fluid">
+            <div class="row bg-dark text-light pt-4">
+              <div class="col-xs-12 col-md-6 p-4">
+                <h4>Navegación</h4>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#info">Más Info</a></li>
+                <li><a href="#consejos">Consejos</a></li>
+                <li><a href="#videos">Multimedia</a></li>
+              </div>             
+              <div class="col-xs-12 col-md-6 p-4">
+                <h4>Contacto</h4>
+                <p>Mail: huertoeco@info.com</p>
+                <p>Telefono: 680457510</p>
+                <p>Dirección: C/Marie Curie Nº11 <br>Málaga(España)</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
